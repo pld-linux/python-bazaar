@@ -1,5 +1,5 @@
 
-%define module bazaar
+%define	module	bazaar
 
 Summary:	Abstraction layer between relational database and object oriented application
 Summary(pl):	Warstwa abstrakcji miêdzy baz± relacyjn± a aplikacj± zorientowan± obiektowo
