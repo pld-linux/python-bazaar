@@ -1,11 +1,14 @@
+
+%define module bazaar
+
 Summary:	Abstraction layer between relational database and object oriented application
 Summary(pl):	Warstwa abstrakcji miêdzy baz± relacyjn± a aplikacj± zorientowan± obiektowo
-Name:		bazaar
+Name:		python-bazaar
 Version:	0.99.0
 Release:	1
 License:	LGPL
 Group:		Python/Libraries
-Source0:	http://savannah.nongnu.org/download/bazaar/%{name}-%{version}.tar.bz2
+Source0:	http://savannah.nongnu.org/download/bazaar/%{module}-%{version}.tar.bz2
 # Source0-md5:	b6a5b87cc6aad61c53657a481ae767b1
 URL:		http://www.nongnu.org/bazaar/
 BuildRequires:	python-devel >= 2.3
@@ -21,7 +24,7 @@ and object oriented application.
 danych a aplikacj± zorientowan± obiektowo.
 
 %prep
-%setup -q
+%setup -q -n %{module}-%{version}
 
 %build
 %configure
