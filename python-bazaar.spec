@@ -4,15 +4,16 @@
 Summary:	Abstraction layer between relational database and object oriented application
 Summary(pl):	Warstwa abstrakcji miêdzy baz± relacyjn± a aplikacj± zorientowan± obiektowo
 Name:		python-bazaar
-Version:	0.99.2
+Version:	0.99.3
 Release:	1
 License:	LGPL
 Group:		Python/Libraries
 Source0:	http://savannah.nongnu.org/download/bazaar/%{module}-%{version}.tar.bz2
-# Source0-md5:	0bd49f6684f2946027cbba24c4c74815
+# Source0-md5:	6cf4f4d3fbdd14818a204a82319359f1
 URL:		http://www.nongnu.org/bazaar/
 BuildRequires:	python-devel >= 2.3
 %pyrequires_eq	python-modules
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
