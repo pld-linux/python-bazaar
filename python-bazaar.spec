@@ -12,6 +12,8 @@ BuildRequires:	python-devel >= 2.3
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
+Easy to use and powerful abstraction layer between relational database and
+object oriented application.
 
 %prep
 %setup -q
@@ -26,9 +28,12 @@ rm -rf $RPM_BUILD_ROOT
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
+find $RPM_BUILD_ROOT%{py_sitedir} -name \*.py | xargs rm
+
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc AUTHORS ChangeLog NEWS README
+%doc AUTHORS ChangeLog NEWS README doc/html doc/pdf/api.pdf
+%{py_sitedir}/bazaar
