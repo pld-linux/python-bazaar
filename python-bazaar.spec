@@ -1,4 +1,5 @@
-Summary:	Easy to use and powerful abstraction layer between relational database and object oriented application
+Summary:	Abstraction layer between relational database and object oriented application
+Summary(pl):	Warstwa abstrakcji miêdzy baz± relacyjn± a aplikacj± zorientowan± obiektowo
 Name:		bazaar
 Version:	0.99.0
 Release:	1
@@ -12,8 +13,12 @@ BuildRequires:	python-devel >= 2.3
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Easy to use and powerful abstraction layer between relational database and
-object oriented application.
+Easy to use and powerful abstraction layer between relational database
+and object oriented application.
+
+%description -l pl
+£atwa w u¿yciu i potê¿na warstwa abstrakcji miêdzy relacyjn± baz±
+danych a aplikacj± zorientowan± obiektowo.
 
 %prep
 %setup -q
