@@ -7,7 +7,7 @@ Name:		python-bazaar
 Version:	0.99.4
 Release:	1
 License:	LGPL
-Group:		Python/Libraries
+Group:		Libraries/Python
 Source0:	http://savannah.nongnu.org/download/bazaar/%{module}-%{version}.tar.bz2
 # Source0-md5:	c5f4e56d169066548db992ff090c1307
 URL:		http://www.nongnu.org/bazaar/
