@@ -2,7 +2,7 @@
 %define	module	bazaar
 
 Summary:	Abstraction layer between relational database and object oriented application
-Summary(pl):	Warstwa abstrakcji miêdzy baz± relacyjn± a aplikacj± zorientowan± obiektowo
+Summary(pl.UTF-8):   Warstwa abstrakcji miÄ™dzy bazÄ… relacyjnÄ… a aplikacjÄ… zorientowanÄ… obiektowo
 Name:		python-bazaar
 Version:	0.99.5
 Release:	2
@@ -20,9 +20,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Easy to use and powerful abstraction layer between relational database
 and object oriented application.
 
-%description -l pl
-£atwa w u¿yciu i potê¿na warstwa abstrakcji miêdzy relacyjn± baz±
-danych a aplikacj± zorientowan± obiektowo.
+%description -l pl.UTF-8
+Åatwa w uÅ¼yciu i potÄ™Å¼na warstwa abstrakcji miÄ™dzy relacyjnÄ… bazÄ…
+danych a aplikacjÄ… zorientowanÄ… obiektowo.
 
 %prep
 %setup -q -n %{module}-%{version}
