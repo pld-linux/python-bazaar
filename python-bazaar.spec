@@ -12,6 +12,8 @@ Source0:	http://savannah.nongnu.org/download/bazaar/%{module}-%{version}.tar.bz2
 # Source0-md5:	e9808782a64e912c3a77d7e4c478637c
 URL:		http://www.nongnu.org/bazaar/
 BuildRequires:	python-devel >= 1:2.3
+BuildRequires:	python-modules
+BuildRequires:	rpm-pythonprov
 %pyrequires_eq	python-modules
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
